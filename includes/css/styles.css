@@ -1,0 +1,412 @@
+*{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400; 
+}
+
+body{
+   background-image: url('../../images/dark_wood.png');
+   background-position: center;
+}
+
+a, a:hover, a:active, a:visited, a:link{
+	text-decoration: none;
+	color: #3B3738;
+	cursor: pointer;
+}
+
+h1,h2,h3{
+	cursor: default;
+}
+
+.btn{
+	color: white !important;
+}
+
+/*NAV-BAR---------------------------------------*/
+
+.header-contact{
+	list-style-type: none;
+	padding-top: 25px;
+	/*margin-left: 130px;*/
+}
+
+.header-contact >li {
+	font-size: 14px;
+	/*font-weight: 600;*/
+}
+
+.header-contact >li >span, .header-contact >li >i{
+	padding-right: 15px;
+}
+
+.navbar{
+/*  background-color: #DFE2DB;
+*/  /*background-color: rgba(200, 200, 200, 0.7);*/
+	background-image: url('../../images/concrete_wall_2.png');
+	border-bottom: solid 10px #aec505;
+}
+
+.nav{
+	height: 80px;
+	margin-top: 20px;
+}
+
+.nav > li {
+  background-color: #aec505;
+  margin: 0 10px;
+  border-radius: 2px;
+  box-shadow: 0px -2px 0px 0px  #fff;
+}
+
+.nav > li > a> span{
+	position: absolute;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 20px;
+	top: 40px;
+}
+
+.nav > li > a{
+	position: relative;
+  font-weight: 600;
+  color: #3B3738;
+  width: 100%;
+  height: 70px;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav > li> a:hover{
+	color: white;
+	background-color: #3B3738;
+}
+
+.nav > li > a > span{
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.navbar-brand
+{
+  padding: 15px 15px;
+}
+
+.nav_logo
+{
+  height: 75px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+/*CAROUSEL---------------------------------------------*/
+
+#myCarousel .item { 
+	height: 500px !important; 
+}
+
+#myCarousel {
+   margin-top: 150px;
+   margin-bottom: 30px;
+}
+
+.carousel-caption {
+	z-index: 0;
+	top: 320px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption a {
+   /*color: #aec505;*/
+   color: white;
+   background-color: rgba(50, 50, 50, 0.5);
+   text-decoration: none;
+   font-size: 32px;
+	font-family: "Montserrat";
+   /*border-radius: 10px;*/
+   border: 3px solid #aec505;
+   box-sizing: border-box;
+   padding: 15px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+   text-transform: uppercase;
+}
+
+#slide1 {
+   background: url('../../images/Carousel1_l.jpg') top center no-repeat;
+   background-size: cover;
+}
+
+#slide2 {
+   background: url('../../images/Carousel2_l.jpg') bottom center no-repeat;
+   background-size: cover;
+}
+
+#slide3 {
+   background: url('../../images/Carousel4_l.jpg') top center no-repeat;
+   background-size: cover;
+}
+
+#slide4 {
+   background: url('../../images/Carousel5_l.jpg') bottom center no-repeat;
+   background-size: cover;
+}
+
+
+/*WELL-----------------------------------------------------*/
+
+.wall{
+	width: 100%;
+	background-color: white;
+	box-sizing: border-box;
+	padding-bottom: 60px;
+}
+
+.contact-wall{
+	padding-top: 60px;
+}
+
+.dark{
+	/*background-image: url('../../images/footer_lodyas.png');*/
+	background-image: url('../../images/dark_wood.png');
+	border-bottom: 10px solid #aec505;
+}
+
+#bigCallout{
+   margin-top: 10px;
+}
+
+.calloutImage{
+   height: 300px;
+   margin-top: -80px;
+   cursor: pointer;
+   margin-left: 20px;
+}
+
+.lead{
+	font-size: 16px;
+}
+
+.well >.page-header{
+	margin: 10px 0 !important;
+}
+
+.well >.page-header> h1{
+	margin-top: 0; 
+}
+
+/*FOOTER----------------------------------------------------------*/
+
+footer {
+   background: #3B3738;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
+.viziteaza >li >a{
+	color: #aec505;
+	text-decoration: underline;
+}
+
+.footer-contact >li >span, .footer-contact >li >i{
+	padding-right: 15px;
+}
+
+/*OTHERS----------------------------------------------------------*/
+
+.col-sm-12 >h2{
+	text-align: center;
+	line-height: 20px;
+}
+
+.section-title{
+	margin: 30px 0px;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+}
+
+.servicii-col{
+	position: relative;
+	margin-top: 50px;
+}
+
+.servicii-cell >p{
+	padding: 20px;
+}
+
+.title-button{
+	font-size: 32px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+	padding: 5px 15px;
+	border-radius: 6px;
+	border-color: #aec505;
+	background-color: #aec505;
+	color: #3B3738;
+}
+
+.servicii-col >a{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	left:0;
+	right:0;
+	top: -40px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	font-size: 40px;
+	background-color: #3B3738;
+	border: 5px solid #aec505 ;
+	border-radius: 50%;
+	color: white;
+}
+
+.servicii-col >a >span{
+	line-height: 80px;
+	padding: 1px;
+}
+
+.servicii-col >a >i{
+	line-height: 60px;
+	padding: 3px;
+	margin-left: 3px;
+}
+
+
+.servicii-img{
+	width: 100%;
+	height: 200px;
+	background-image: url('../../images/santier.jpg');
+	background-size: cover;
+	border-bottom: 5px solid #aec505;
+}
+
+.servicii-content{
+	background-color: #3B3738;
+	box-sizing: border-box;
+	padding: 15px;
+
+}
+
+.servicii-content >h3{
+	margin-top: 0;
+	font-family: "Montserrat";
+	font-size: 20px !important;
+	padding: 5px;
+}
+
+.servicii-content >h3, .servicii-content >p{
+	color: white;
+	font-size: 12px;
+}
+
+.button-center{
+	margin-top: 10px;
+}
+
+
+/*PROIECTE-------------------------------------------------------*/
+
+.proiecte-cell{
+	padding: 0;
+	margin-bottom: 110px;
+}
+
+.proiecte-cell >li{
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.proiecte-cell >li >p{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: white;
+	font-size: 14px;
+    font-weight: 400px;
+}
+
+.proiecte-cell >li >p:last-child{
+	bottom: -60px;
+}
+.proiecte-cell >li >p >span{
+	padding-right: 5px;
+}
+
+.dark > .container > h1{
+	margin-top: 30px;
+	display: inline-block;
+	padding: 30px;
+	font-family: "Montserrat";
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.highlight{
+	color: #aec505;
+}
+
+.plus{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color:rgba(255,255,255,.85);
+	font-size: 24px;
+	-webkit-transform: translateX(-50%);
+	transform:translateX(-50%);
+	-webkit-transform: translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.proiecte-cell >li:hover .overlay{
+	opacity: 1;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	background:rgba(0,0,0,.75);
+	text-align:center;
+	opacity:0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+}
+
+
+iframe{
+	width: 100%;
+}
+
+.contact-info{
+	box-sizing: border-box;
+	padding: 20px 0 0 50px;
+}
+
+.contact-info > h2 {
+	padding: 20px 0;
+}
+
+.contact-info > p{
+	font-size: 16px;
+}
+
+.contact-info > p >span, .contact-info > p >i {
+	padding-right: 25px;
+}
